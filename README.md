@@ -67,9 +67,6 @@ git clone https://github.com/your-username/online-portfolio-builder.git
 cd online-portfolio-builder
 ```
 ### 2. Setup Backend
-bash
-Copy
-Edit
 cd backend
 npm install
 Create a .env file in the backend/ directory:
@@ -93,39 +90,39 @@ npm start
 ```
 
 # 🔐 Authentication Flow
-Auth middleware (middleware/auth.js) validates JWT tokens.
+--**Auth middleware (middleware/auth.js) validates JWT tokens.**
 
-Protected routes via Express middleware (routes/auth.js).
+--**Protected routes via Express middleware (routes/auth.js).**
 
-Context API handles frontend authentication state and route protection.
+--**Context API handles frontend authentication state and route protection.**
 
 ## 📸 Pages Overview
-HomePage.jsx: Landing Page
+--**HomePage.jsx:** Landing Page
 
-Signin.jsx / Signup.jsx: User Authentication
+--**Signin.jsx / Signup.jsx:** User Authentication
 
-Dashboard.jsx: Edit and Manage Portfolio
+--**Dashboard.jsx:** Edit and Manage Portfolio
 
-CustomizePage.jsx: Edit Portfolio Content
+--**CustomizePage.jsx:** Edit Portfolio Content
 
-TemplateSelectionPage.jsx: Choose Portfolio Template
+--**TemplateSelectionPage.jsx:** Choose Portfolio Template
 
-PreviewPage.jsx: Live Preview of Portfolio
+--**PreviewPage.jsx:** Live Preview of Portfolio
 
-Terms.jsx: Terms of Service
+--**Terms.jsx:** Terms of Service
 
-ForgotPassword.jsx: Password Recovery
+--**ForgotPassword.jsx:** Password Recovery
 
-🧪 Future Enhancements
-Drag-and-drop Customization
+### 🧪 Future Enhancements
+--**Drag-and-drop Customization**
 
-Export Portfolio as PDF
+--**Export Portfolio as PDF**
 
-Public Portfolio Link Sharing
+--**Public Portfolio Link Sharing**
 
-Theme-based Templates
+--**Theme-based Templates**
 
-Admin Analytics Dashboard
+--**Admin Analytics Dashboard**
 
 # 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
