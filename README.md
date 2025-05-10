@@ -88,6 +88,7 @@ cd frontend
 npm install
 npm start
 ```
+---
 
 # 🔐 Authentication Flow
 --**Auth middleware (middleware/auth.js) validates JWT tokens.**
@@ -96,18 +97,25 @@ npm start
 
 --**Context API handles frontend authentication state and route protection.**
 
+---
+
 ## 📸 Pages Overview
 --**HomePage.jsx:** Landing Page
+![HomePage](home.png)
 
 --**Signin.jsx / Signup.jsx:** User Authentication
 
 --**Dashboard.jsx:** Edit and Manage Portfolio
+![Dashboard](dashboard.png)
 
 --**CustomizePage.jsx:** Edit Portfolio Content
+![CustomizePage](customize.png)
 
 --**TemplateSelectionPage.jsx:** Choose Portfolio Template
+![TemplateSelectionPage](template.png)
 
 --**PreviewPage.jsx:** Live Preview of Portfolio
+![PreviewPage](preview.png)
 
 --**Terms.jsx:** Terms of Service
 
@@ -124,6 +132,7 @@ npm start
 
 --**Admin Analytics Dashboard**
 
+---
 # 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
