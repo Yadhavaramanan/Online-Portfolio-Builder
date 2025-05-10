@@ -65,7 +65,8 @@ CLOUD3/
 ```bash
 git clone https://github.com/your-username/online-portfolio-builder.git
 cd online-portfolio-builder
-2. Setup Backend
+```
+### 2. Setup Backend
 bash
 Copy
 Edit
@@ -84,7 +85,7 @@ Start the backend server:
 npm start
 ```
 
-# 3. Setup Frontend
+### 3. Setup Frontend
 ```
 cd frontend
 npm install
